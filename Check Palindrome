@@ -1,0 +1,12 @@
+def Pal(num):
+    
+    snum = str(num) # convert to string
+    
+    if snum == snum[::-1]: # reverse the string and check the condition
+        
+        return 'palindrome'
+    else:
+        return 'not'
+    
+print(Pal(121))
+print(Pal('121'))
