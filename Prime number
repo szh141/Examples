@@ -1,0 +1,9 @@
+def prime(a,b):
+    
+    prime_number = [num for num in range(a,b) if all(num % i !=0 for i in range(2,num))]
+    
+    return prime_number
+
+print(prime(50,100)) 
+
+[53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
