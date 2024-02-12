@@ -1,0 +1,12 @@
+def anagram(x,y): 
+    
+    x= sorted(x.lower())  # sort the inputs
+    y= sorted(y.lower())
+        
+    if x == y :
+        print('Anagram')
+        
+    else:
+        print('not Anagram')
+
+anagram('silent','listen' ) # not checking the inclusive 'list'
